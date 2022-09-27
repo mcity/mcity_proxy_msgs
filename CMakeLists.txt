@@ -34,8 +34,8 @@ if(BUILD_TESTING)
 endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/LinearVelocityForTime.srv"
-  "srv/LinearVelocityForDistance.srv"
+  "srv/OpenLoopControllerDistance.srv"
+  "srv/OpenLoopControllerTime.srv"
 )
 
 ament_export_dependencies(rosidl_default_runtime)
