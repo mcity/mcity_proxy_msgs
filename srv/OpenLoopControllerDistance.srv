@@ -1,4 +1,4 @@
+float64 meters_per_secon
 float64 meters
-float64 seconds
 ---
 bool success
