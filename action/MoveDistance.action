@@ -1,0 +1,6 @@
+float32 meters
+float32 meters_per_second
+---
+geometry_msgs/Point final_position
+---
+geometry_msgs/Point current_position
