@@ -38,6 +38,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/OpenLoopControllerDistance.srv"
   "srv/OpenLoopControllerTime.srv"
   "action/MoveDistance.action"
+  "msg/MoveDistanceFeedback.msg"
+  "msg/MoveDistanceGoal.msg"
+  "msg/MoveDistanceResult.msg"
   DEPENDENCIES geometry_msgs
 )
 
