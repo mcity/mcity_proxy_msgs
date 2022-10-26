@@ -37,6 +37,8 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/OpenLoopControllerDistance.srv"
   "srv/OpenLoopControllerTime.srv"
+  "srv/MoveDistanceCancelGoal.srv"
+  "srv/MoveDistanceSendGoal.srv"
   "action/MoveDistance.action"
   "msg/MoveDistanceFeedback.msg"
   "msg/MoveDistanceGoal.msg"
