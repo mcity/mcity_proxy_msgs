@@ -1,1 +1,0 @@
-geometry_msgs/Point final_position
