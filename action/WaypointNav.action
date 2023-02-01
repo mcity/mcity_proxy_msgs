@@ -1,0 +1,8 @@
+# Request
+mcity_proxy_msgs/Waypoint[] waypoints
+---
+# Result
+geographic_msgs/GeoPoint final_position
+---
+# Feedback
+geographic_msgs/GeoPoint current_position
