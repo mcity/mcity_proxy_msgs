@@ -1,0 +1,10 @@
+# Request
+float32 radius
+float32 meters_per_second
+float32 seconds
+---
+# Result
+geometry_msgs/Point final_position
+---
+# Feedback
+geometry_msgs/Point current_position
