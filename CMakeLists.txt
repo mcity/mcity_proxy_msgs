@@ -40,6 +40,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/OpenLoopControllerDistance.srv"
   "srv/OpenLoopControllerTime.srv"
   "action/MoveDistance.action"
+  "action/MoveCircle.action"
   "action/WaypointNav.action"
   "msg/Waypoint.msg"
   DEPENDENCIES geometry_msgs nav_msgs geographic_msgs
