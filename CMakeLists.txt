@@ -43,6 +43,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/MoveCircle.action"
   "action/WaypointNav.action"
   "msg/Waypoint.msg"
+  "msg/Heading.msg"
   DEPENDENCIES geometry_msgs nav_msgs geographic_msgs
 )
 

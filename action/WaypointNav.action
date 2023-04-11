@@ -6,3 +6,4 @@ geographic_msgs/GeoPoint final_position
 ---
 # Feedback
 geographic_msgs/GeoPoint current_position
+float32 distance_to_goal
