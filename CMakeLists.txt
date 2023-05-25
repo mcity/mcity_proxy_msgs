@@ -39,6 +39,7 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/OpenLoopControllerDistance.srv"
   "srv/OpenLoopControllerTime.srv"
+  "srv/CalibrateHeading.srv"
   "action/MoveDistance.action"
   "action/MoveCircle.action"
   "action/WaypointNav.action"
